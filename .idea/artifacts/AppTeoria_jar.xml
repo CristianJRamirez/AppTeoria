@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AppTeoria:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AppTeoria_jar</output-path>
+    <root id="archive" name="AppTeoria.jar">
+      <element id="module-output" name="AppTeoria" />
+    </root>
+  </artifact>
+</component>

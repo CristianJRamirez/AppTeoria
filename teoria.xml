@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Cristian_Javier>
+    <Java>
+        <Titulo>Codigo Java</Titulo>
+        <Descripcion>Ejemplo de codigo</Descripcion>
+        <Codigo>System.out.println("Ejemplo");</Codigo>
+    </Java>
+    <Android>
+        <Titulo>CodigoAndroid</Titulo>
+        <Descripcion>Ejempllo de codigo Androidfhf</Descripcion>
+        <Codigo>System.out.println("Android");</Codigo>
+    </Android>
+</Cristian_Javier>

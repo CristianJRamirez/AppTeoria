@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Cristian_Javier" type="Cristian_JavierType"/>
+  <xs:complexType name="JavaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Titulo"/>
+      <xs:element type="xs:string" name="Descripcion"/>
+      <xs:element type="xs:string" name="Codigo"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AndroidType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Titulo"/>
+      <xs:element type="xs:string" name="Descripcion"/>
+      <xs:element type="xs:string" name="Codigo"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cristian_JavierType">
+    <xs:sequence>
+      <xs:element type="JavaType" name="Java"/>
+      <xs:element type="AndroidType" name="Android"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
